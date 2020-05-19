@@ -6,7 +6,7 @@ class Explore extends React.Component {
   static contextType = ThemeContext;
   render() {
     const {isDarkMode, dark, light} = this.context;
-    const exploreText = isDarkMode ? 'Explore Dark' : 'Explore Light';
+    const exploreText = isDarkMode ? 'Explore Black' : 'Explore Light';
     return (
       <View
         style={{
